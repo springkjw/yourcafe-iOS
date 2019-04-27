@@ -20,6 +20,10 @@
 		3ED39B142258869F009AB9AD /* YourCafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED39B132258869F009AB9AD /* YourCafeTests.swift */; };
 		3ED39B1F2258869F009AB9AD /* YourCafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED39B1E2258869F009AB9AD /* YourCafeUITests.swift */; };
 		8FC4D6480F00CC5C941D5E60 /* Pods_YourCafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A8539005861F7B9BBAB455 /* Pods_YourCafe.framework */; };
+		E8D21D8C2258916F00CA31D1 /* CafeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D21D8B2258916F00CA31D1 /* CafeModel.swift */; };
+		E8D21D8E2261D08900CA31D1 /* CafeListModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D21D8D2261D08900CA31D1 /* CafeListModelInput.swift */; };
+		E8D21D902261D0AD00CA31D1 /* CafeListModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D21D8F2261D0AD00CA31D1 /* CafeListModelOutput.swift */; };
+		E8D21D922261D14C00CA31D1 /* CafeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D21D912261D14C00CA31D1 /* CafeListModel.swift */; };
 		ED4E8B2ABFF9F84BDA4680B8 /* Pods_YourCafeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745B3997AAE04F123A59F914 /* Pods_YourCafeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +71,10 @@
 		AB3ACE05D1703E735D1A07D9 /* Pods-YourCafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourCafe.release.xcconfig"; path = "Pods/Target Support Files/Pods-YourCafe/Pods-YourCafe.release.xcconfig"; sourceTree = "<group>"; };
 		C7141A9357086CB2034989C1 /* Pods_YourCafeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YourCafeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7241D9769C5AE4DE52E4439 /* Pods-YourCafeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourCafeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YourCafeUITests/Pods-YourCafeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D21D8B2258916F00CA31D1 /* CafeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeModel.swift; sourceTree = SOURCE_ROOT; };
+		E8D21D8D2261D08900CA31D1 /* CafeListModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListModelInput.swift; sourceTree = SOURCE_ROOT; };
+		E8D21D8F2261D0AD00CA31D1 /* CafeListModelOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListModelOutput.swift; sourceTree = SOURCE_ROOT; };
+		E8D21D912261D14C00CA31D1 /* CafeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,10 @@
 		3E6E66C222588BA800341819 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8D21D8B2258916F00CA31D1 /* CafeModel.swift */,
+				E8D21D8D2261D08900CA31D1 /* CafeListModelInput.swift */,
+				E8D21D8F2261D0AD00CA31D1 /* CafeListModelOutput.swift */,
+				E8D21D912261D14C00CA31D1 /* CafeListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -466,8 +478,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6E66CF22588C9700341819 /* EditViewController.swift in Sources */,
+				E8D21D902261D0AD00CA31D1 /* CafeListModelOutput.swift in Sources */,
+				E8D21D922261D14C00CA31D1 /* CafeListModel.swift in Sources */,
 				3E6E66CD22588C8300341819 /* DetailViewController.swift in Sources */,
 				3ED39AFF2258869E009AB9AD /* AppDelegate.swift in Sources */,
+				E8D21D8E2261D08900CA31D1 /* CafeListModelInput.swift in Sources */,
+				E8D21D8C2258916F00CA31D1 /* CafeModel.swift in Sources */,
 				3E6E66CB22588C7900341819 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,7 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 452DHHAC9T;
+				DEVELOPMENT_TEAM = 257GPNRDVU;
 				INFOPLIST_FILE = YourCafe/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -657,7 +673,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 452DHHAC9T;
+				DEVELOPMENT_TEAM = 257GPNRDVU;
 				INFOPLIST_FILE = YourCafe/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
